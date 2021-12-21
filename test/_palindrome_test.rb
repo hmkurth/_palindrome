@@ -8,6 +8,23 @@ class PalindromeTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    assert true
   end
+  def test_non_palindromodule 
+    assert !"apple".palindrome?
+  end
+
+  def test_literal_palindrome 
+    assert "racecar".palindrome?
+  end
+
+
+  def test_mixed_case_palindrome
+    skip
+  end
+  def test_palindrome_with_punctuation
+    skip
+  end
+
+  
 end
